@@ -425,5 +425,45 @@ main .pointseven .box .right button {
 main .pointseven .subtitle {
     cursor: pointer;
 }
+/* pointeight */
+.pointeight {
+    background-color: #f8f8f8;
+}
+.pointeight .maintitle {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.pointeight .box {
+    flex-basis: 30%;
+    box-shadow: 0 1px 1px rgba(220,220,220,0.12), 
+              0 2px 2px rgba(220,220,220,0.12), 
+              0 4px 4px rgba(220,220,220,220.12), 
+              0 8px 8px rgba(220,220,220,220.12),
+              0 16px 16px rgba(220,220,220,220.12);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+.pointeight .box img {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -81px;
+    left: 30%;
+}
+.pointeight .box .textviolet {
+    color: #5c577b;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.pointeight .box .blacktext {
+    font-size: 14px;
+    font-weight: 700;
+}
+.pointeight .box .textgrey {
+    font-size: 14px;
+
+}
+
 
 
