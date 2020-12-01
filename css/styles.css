@@ -30,6 +30,9 @@
 .center {
     text-align: center;
 }
+.weight {
+    font-weight: 700;
+}
 .mgauto {
     margin: auto;
 }
@@ -355,3 +358,72 @@ main .pointfive .imgdx .grey {
     top: 126px;
     width: 450px;
 }
+/* point six */
+main .pointsix {
+    margin-top: 150px;
+}
+main .pointsix .imgsx {
+    margin-right: 230px;
+}
+
+main .pointsix .imgsx .gr {
+    width: 450px;
+}
+main .pointsix .imgsx .im {
+    position: absolute;
+    right: -38px;
+    bottom: 49px;
+    z-index: 2;
+}
+main .pointsix .imgsx .sc {
+    position: absolute;
+    bottom: 280px;
+    left: -100px;
+}
+main .pointsix .imgsx .sc2 {
+    position: absolute;
+    top: 186px;
+    left: 475px;
+}
+main .pointsix .textdx {
+    margin-bottom: 200px;
+}
+/* point seven */
+main .pointseven .textgrey {
+    margin-bottom: 25px;
+}
+main .pointseven .maintitle {
+    margin-bottom: 40px;
+}
+main .pointseven .box {
+    flex-basis: 48%;
+    padding: 25px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+main .pointseven .box .left .textgrey {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+main .pointseven .box .left .textgrey i {
+    font-size: 15px;
+    margin-right: 8px;
+}
+main .pointseven .box .right .textgreen {
+font-size: 50px;
+}
+main .pointseven .box .right .textblack {
+    font-weight: 700;
+}
+main .pointseven .box .right button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main .pointseven .subtitle {
+    cursor: pointer;
+}
+
+
