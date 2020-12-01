@@ -241,8 +241,8 @@ main .textdx .box .textgrey {
 /* point four  */
 .pointfour {
     background: #f6f6f6;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 110em 20em;
+    border-bottom-right-radius: 110em 20em;
 }
 main .pointfour .maintitle {
     margin-top: 20px;
