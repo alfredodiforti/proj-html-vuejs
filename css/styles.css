@@ -464,6 +464,40 @@ main .pointseven .subtitle {
     font-size: 14px;
 
 }
-
-
-
+.pointeight .round {
+    width: 120px;
+    margin-top: 50px;
+    color: #b7b5c4;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.pointeight .round .active {
+    font-size: 16px;
+    color: #3f3a64;
+} 
+main .pointeight .fntext .one {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+main .pointeight .fntext .two {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+main .pointeight .fntext button {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+main .pointeight .draw1 {
+    position: absolute;
+    left: 0px;
+    bottom: 250px;
+}
+main .pointeight .draw2 {
+    position: absolute;
+    right: 0px;
+    bottom: 100px;
+}
