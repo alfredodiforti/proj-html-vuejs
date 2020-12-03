@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="./css/styles.css">
     <!-- first font -->
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">  
+    <!-- vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    
 </head>
 <body>
     <!-- vue call -->
@@ -20,13 +23,8 @@
             <div class="container flex-spbt">
                 <img class="logo" src="./img/dark-logo.png" alt="logo">
                 <div class="navbar flex-spbt position">
-                    <ul class="flex-spbt list">
-                        <li>home <i class="fas fa-chevron-down"></i></li>
-                        <li>pages<i class="fas fa-chevron-down"></i>  </li>
-                        <li>courses<i class="fas fa-chevron-down"></i></li>
-                        <li>Features<i class="fas fa-chevron-down"></i></li>
-                        <li>blog<i class="fas fa-chevron-down"></i> </li>
-                        <li>Shop<i class="fas fa-chevron-down"></i></li>
+                    <ul v-for="link in header" class="flex-spbt list">
+                        <li><a :href="link.link">{{link.name}}</a><i class="fas fa-chevron-down"></i></li>
                     </ul>
                     <i class="fas fa-shopping-cart position"><div class="box">0</div></i>
                     <i class="far fa-user-circle"></i>
@@ -349,10 +347,7 @@
                 <P class="textgrey">+1 329568450</P>
                 <P class="textgrey">valleyoftaple@gmail.com</P>
                 <div class="flex-spbt icon">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-linkedin"></i>
+                    <a v-for="icon in footer" :href="icon.link"><i :class="icon.icon"></i></a>
                 </div>
             </div>
             <div class="right js mgauto">
@@ -378,6 +373,7 @@
             </div>
         </footer>
     </div>
-    
+    <!-- javascript -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
